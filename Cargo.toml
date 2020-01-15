@@ -1,0 +1,11 @@
+[package]
+name = "mdb-tools-rs"
+version = "0.1.0"
+authors = ["Clément Renault <clement@meilisearch.com>"]
+edition = "2018"
+
+[dependencies]
+libc = "0.2.66"
+lmdb-rkv-sys = "0.10.0"
+main_error = "0.1.0"
+
